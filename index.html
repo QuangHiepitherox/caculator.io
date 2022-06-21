@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="block">
+        <div id="nav">
+            <h1 id="text-nav">Máy tính đơn giản</h1>
+            <input id="manipulation" value=""></input>
+            <input id="resual" value=""></input>          
+        </div>
+        <div>
+            <div id="number-block">
+             <input class="num-block" type="button" id="num1" value="1">
+             <input class="num-block" type="button" id="num2" value="2">
+             <input class="num-block" type="button" id="num3" value="3">
+             <input class="num-block" type="button" id="num4" value="4">
+             <input class="num-block" type="button" id="num5" value="5">
+             <input class="num-block" type="button" id="num6" value="6">
+             <input class="num-block" type="button" id="num7" value="7">
+             <input class="num-block" type="button" id="num8" value="8">
+             <input class="num-block" type="button" id="num9" value="9">
+             <input class="num-block" type="button" id="num15" onclick="ac()" value="AC">
+             <input class="num-block" type="button" id="num0" value="0">
+             <input class="num-block" type="button" onclick="sum()" id="num16" value="=">
+            </div>
+            <div id="calculation-block">
+             <input class="num-block" type="button" id="num12" value="+">
+             <input class="num-block" type="button" id="num13" value="-">
+             <input class="num-block" type="button" id="num11" value="*">
+             <input class="num-block" type="button" id="num10" value="/">
+             <input class="num-block-delete" type="button" id="num14" onclick="deletes()" value="delete">
+            </div>
+        </div>
+        <!-- <button id="root">click me</button> -->
+    </div>
+</body>
+<script src="./main.js" >
+</script>
+</html>
